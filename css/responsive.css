@@ -1,0 +1,206 @@
+@media (max-width: 1024px) {
+
+    /* header responsive */
+
+    .header {
+        height: 647px;
+    }
+    .header-top {
+       max-width: 721px;
+       width: 100%;
+       margin-right: 53px;
+    }
+    .header-bottom {
+        max-width: 365px;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .header-title {
+        font-size: 56px;
+        line-height: 73.5px;
+        margin-top: 86px;
+        margin-bottom: 93px;
+    }
+
+    /* section 1 responsive */
+
+    .div-lorem {
+        max-width: 852px;
+        width: 100%;
+    }
+    .container {
+        max-width: 764px;
+        width: 100%;
+    }
+    .icon {
+        display: none;
+    }
+
+    /* secrion 2 responsive top */
+
+    .wraper {
+        margin-top: 151px;
+        max-width: 904px;
+        width: 100%;
+        column-gap: 52px;
+    }
+    .left-block {
+        max-width: 428px;
+        width: 100%;
+        height: 404px;
+    }
+    .left-title h2 {
+        font-size: 58px;
+        line-height: 59.5px;
+    }
+    .left-text {
+        max-width: 428px;
+        width: 100%;
+    }
+    .left-text p {
+        font-size: 14px;
+        line-height: 28.5px;
+    }
+    .right-block {
+        max-width: 424px;
+        width: 100%;
+    }
+
+    /* section 2 styles bottom */
+
+    .second-wraper {
+        margin-top: 120px;
+        margin-bottom: 71px;
+        column-gap: 56px;
+    }
+
+    /* footer styles */
+
+    .footer-bg {
+        padding: 80px 0px 70px 0px;
+    }
+    .div-footer {
+        max-width: 903.04px;
+        width: 100%;
+        margin: 0 auto 50px auto;
+    }
+    .copyright {
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 632px) {
+    .container {
+        max-width: 335px;
+        width: 100%;
+        justify-content: center;
+        row-gap: 80px;
+    }
+}
+@media (max-width: 375px) {
+
+    /*  header responsive */
+    .header {
+        height: 601px;
+    }
+    .header-top {
+        max-width: 322px;
+        width: 100%;
+        margin-right: 35px;
+    }
+    .navigation {
+        display: none;
+    }
+    .burgerbar {
+        display: flex;
+    }
+    .header-bottom {
+        max-width: 335px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .header-title {
+        font-size: 42px;
+        line-height: 57.5px;
+        margin-top: 62px;
+    }
+    .header-description {
+        margin-bottom: 84.15px;
+    }
+
+    /* section 1 responsive */
+
+    .div-lorem {
+        max-width: 334px;
+        width: 100%;
+        margin-top: 60px;
+    }
+    .lorem-text {
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+    }
+    .icon {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    /* section 2 top responsive */
+
+    .wraper {
+        margin: 90px auto 44px auto;
+        max-width: 338px;
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .left-block {
+        text-align: center;
+        margin-top: 30px;
+        height: 451px;
+        align-items: center;
+    }
+    .left-title h2 {
+        font-size: 36px;
+        line-height: 41.5px;
+    }
+    .left-text {
+        max-width: 336px;
+        width: 100%;
+    }
+    .add-div {
+        width: 100%;
+        height: 108px;
+    }
+    .right-block {
+        max-width: 335px;
+        width: 100%;
+    }
+
+    /* section 2 styles bottom */
+    .second-wraper {
+        flex-direction: column;
+    }
+    .second-add {
+        height: 48px;
+    }
+
+    /* footer styles */
+
+    .footer-bg {
+        padding : 80px 0px 77px 20px;
+    }
+    .div-footer {
+        max-width: 258.61px;
+        margin-left: 20px;
+        flex-direction: column;
+        margin-bottom: 124px;
+    }
+    .title-footer {
+        margin-top: 49px;
+    }
+    .copyright {
+        margin-left: 20px;
+    }
+}
